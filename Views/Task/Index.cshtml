@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    var schedule = ViewBag.Schedule as List<WeeklyScheduleSlot>;
+    var startOfWeek = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek + 1);
+    var daysOfWeek = Enumerable.Range(0, 7).Select(i => startOfWeek.AddDays(i));
+    var timeSlots = Enumerable.Range(9 * 2, 29).Select(i => TimeSpan.FromMinutes(i * 30));
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/Index.css" asp-append-version="true" />
+}
+
+<div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-3">
+        <div class="card mb-4">
+            <div class="card-header">Tareas finalizadas</div>
+            <table>
+                <tr>
+                    <th>Tarea</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Main Schedule -->
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">Today Tasks</div>
+            <div class="card-body">
+                <table>
+                    <tr>
+                        <th>Tarea</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Statistics Panel -->
+    <div class="col-md-3">
+        <div class="card mb-4">
+            <div class="card-header">Summary</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Total Tasks: <span class="float-right">18</span></li>
+                <li class="list-group-item">Overdue Tasks: <span class="float-right text-danger">2</span></li>
+                <li class="list-group-item">Next Task: <span class="float-right">Prepare Meeting</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        @if (schedule != null && schedule.Count > 0)
+        {
+            <div class="container mt-4">
+                <h3 class="mb-3">Horario Semanal</h3>
+                <table class="table table-bordered table-striped text-center">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Horas</th>
+                            @foreach (var day in daysOfWeek)
+                            {
+                                <th>@day.ToString("dddd")</th>
+                            }
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var slot in timeSlots)
+                        {
+                            <tr>
+                                <td>@slot.ToString(@"hh\:mm")</td>
+                                @foreach (var day in daysOfWeek)
+                                {
+                                    var tasksForSlot = schedule?.Where(s =>
+                                    s.Day.Date == day.Date &&
+                                    s.StartTime == slot);
+                                    <td>
+                                        @if (tasksForSlot != null && tasksForSlot.Any())
+                                        {
+                                            foreach (var task in tasksForSlot.First().Tasks)
+                                            {
+                                                <div>@task.Name</div>
+                                            }
+                                        }
+                                        else if (tasksForSlot?.FirstOrDefault()?.IsBreak == true)
+                                        {
+                                            <div class="text-danger">Descanso</div>
+                                        }
+                                    </td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="text-center mb-3">No tienes ninguna tarea</div>
+                <a class="btn btn-primary" href="@Url.Action("AddTask", "Task")">Añadir Tarea</a>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Tasks/index.js?v=@DateTime.Now.Ticks"></script>
+}

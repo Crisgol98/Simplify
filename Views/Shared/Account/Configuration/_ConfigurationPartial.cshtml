@@ -1,0 +1,55 @@
+﻿@model UserAccount
+
+<div class="container mt-4">
+    <form id="userSettingsForm" class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label for="Username" class="form-label">Nombre de usuario</label>
+            <input type="text" class="form-control" id="Username" name="Username" value="@Model.Username" required>
+            <div class="invalid-feedback">
+                El nombre de usuario es obligatorio.
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="Password" class="form-label">Nueva contraseña</label>
+            <input type="password" class="form-control" id="Password" name="Password" minlength="6" required>
+            <div class="invalid-feedback">
+                La contraseña debe tener al menos 6 caracteres.
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="ConfirmPassword" class="form-label">Confirmar contraseña</label>
+            <input type="password" class="form-control" id="ConfirmPassword" name="ConfirmPassword" required>
+            <div class="invalid-feedback">
+                Es obligatorio confirmar la contraseña.
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+        </div>
+    </form>
+
+    <!-- Modal de confirmación -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Cambio exitoso</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Los cambios se han aplicado correctamente.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="js/"></script>
+}

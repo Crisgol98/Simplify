@@ -1,0 +1,41 @@
+﻿@model UserAccount
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Sidebar -->
+        <nav class="col-md-3">
+            <div class="list-group">
+                <a href="/Account/LoadPartial?view=Credentials" class="list-group-item list-group-item-action active" id="link-credentials">
+                    Credenciales
+                </a>
+                <a href="/Account/LoadPartial?view=Settings" class="list-group-item list-group-item-action" id="link-settings">
+                    Configuración
+                </a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="col-md-9" id="main-content">
+            @Html.Partial("~/Views/Shared/Account/Configuration/_ConfigurationPartial.cshtml", Model)
+        </main>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Manejar la carga dinámica de las vistas parciales
+            $(".list-group-item").click(function (e) {
+                e.preventDefault();
+
+                // Cambiar la clase activa en el sidebar
+                $(".list-group-item").removeClass("active");
+                $(this).addClass("active");
+
+                // Cargar contenido dinámico
+                var url = $(this).attr("href");
+                $("#main-content").load(url);
+            });
+        });
+    </script>
+}

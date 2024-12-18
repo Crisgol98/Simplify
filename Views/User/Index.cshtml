@@ -1,0 +1,8 @@
+﻿@using System.Data
+@foreach (DataRow row in ViewBag.users.Rows)
+{
+    @foreach (DataColumn col in ViewBag.users.Columns)
+    {
+        <div>@row[col]</div>
+    }
+}
