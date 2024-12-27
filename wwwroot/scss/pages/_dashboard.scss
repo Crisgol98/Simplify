@@ -1,0 +1,390 @@
+﻿@import "../base/_variables";
+
+@mixin card {
+    background: white;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    padding: 1.5rem;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard {
+    padding: 2rem;
+
+    &_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    &_title {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $gray-dark;
+        margin: 0;
+    }
+
+    &_grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    &_schedule {
+        margin-top: 2rem;
+    }
+}
+.time-slots {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+.time-section {
+    &_header {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid $gray-medium;
+
+        i {
+            font-size: 1.2rem;
+        }
+
+        h4 {
+            margin: 0;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: $gray-dark;
+        }
+    }
+}
+.time-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+.time-slot-card {
+    display: flex;
+    gap: 1rem;
+    padding: 0.75rem;
+    background: white;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    &.has-task {
+        border-left: 4px solid $task-color;
+    }
+    &.completed {
+        border-left: 4px solid $success-color;
+    }
+
+    &.is-break {
+        border-left: 4px solid $warning-color;
+        background-color: rgba($break-color, 0.1);
+    }
+
+    &_time {
+        min-width: 60px;
+        font-weight: 600;
+        color: $gray-dark;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $gray-light;
+        border-radius: $border-radius;
+        padding: 0.5rem;
+    }
+
+    &_content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+.schedule-card {
+    @include card;
+
+    &_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        border-bottom: 1px solid $gray-medium;
+        padding-bottom: 1rem;
+
+        h3 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: $gray-dark;
+        }
+    }
+
+    &_controls {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        span {
+            font-weight: 500;
+            color: $gray-dark;
+        }
+
+        button {
+            padding: 0.5rem 0.75rem;
+
+            &:hover {
+                background-color: rgba($primary-color, 0.1);
+            }
+        }
+    }
+
+    &_content {
+        position: relative;
+    }
+}
+
+.schedule-table {
+    overflow-x: auto;
+
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+
+        th, td {
+            padding: 0.75rem;
+            border: 1px solid $gray-medium;
+        }
+
+        th {
+            background: $gray-light;
+            font-weight: 600;
+            text-align: left;
+        }
+
+        .time-slot {
+            width: 100px;
+            font-weight: 500;
+            color: $gray-dark;
+            background: $gray-light;
+        }
+    }
+}
+
+.schedule-slot {
+    min-height: 60px;
+    vertical-align: top;
+    transition: background-color 0.2s;
+
+    &.has-task {
+        background-color: rgba($primary-color, 0.05);
+    }
+
+    &.is-break {
+        background-color: rgba($warning-color, 0.1);
+    }
+}
+
+.schedule-task {
+    background: white;
+    border-left: 3px solid $primary-color;
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: translateX(2px);
+    }
+
+    .task-name {
+        font-size: 0.9rem;
+        color: $gray-dark;
+        display: block;
+    }
+}
+.task-card {
+    background: white;
+    border-radius: $border-radius;
+    padding: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    &_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .task-name {
+        font-weight: 500;
+        color: $gray-dark;
+    }
+
+    .task-duration {
+        font-size: 0.85rem;
+        color: $primary-color;
+        background: rgba($primary-color, 0.1);
+        padding: 0.25rem 0.5rem;
+        border-radius: 12px;
+    }
+
+    .task-description {
+        font-size: 0.9rem;
+        color: lighten($gray-dark, 20%);
+        margin: 0;
+    }
+}
+.break-slot {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: $warning-color;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+
+    i {
+        font-size: 1.2rem;
+    }
+}
+
+.empty-schedule {
+    @include flex-center;
+    flex-direction: column;
+    padding: 3rem;
+    text-align: center;
+
+    img {
+        width: 200px;
+        margin-bottom: 1.5rem;
+        opacity: 0.7;
+    }
+
+    p {
+        color: $gray-dark;
+        margin-bottom: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    button {
+        &:hover {
+            transform: translateY(-1px);
+        }
+    }
+}
+
+
+.stats-card {
+    @include card;
+    background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+
+    &_header {
+        margin-bottom: 1.5rem;
+
+        h3 {
+            font-size: 1.2rem;
+            color: $gray-dark;
+            margin: 0;
+            font-weight: 600;
+        }
+    }
+
+    &_content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+    }
+}
+
+
+.stat-item {
+    padding: 1.25rem;
+    background: white;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+
+    &_label {
+        display: block;
+        font-size: 0.9rem;
+        color: $gray-dark;
+        margin-bottom: 0.75rem;
+        font-weight: 500;
+    }
+
+    &_value {
+        display: block;
+        font-size: 1.75rem;
+        font-weight: 600;
+        color: $primary-color;
+        line-height: 1;
+
+        &--success {
+            color: $success-color;
+        }
+
+        &--warning {
+            color: $warning-color;
+        }
+
+        &--danger {
+            color: $danger-color;
+        }
+    }
+}
+
+
+.time-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.border-radius-custom {
+    border-radius: 12px !important;
+}
+
+
+
+@media (max-width: 768px) {
+    .time-slots {
+        grid-template-columns: 1fr;
+    }
+
+    .time-slot-card {
+        &_time {
+            min-width: 50px;
+            font-size: 0.9rem;
+        }
+    }
+
+    .schedule-card_header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+}

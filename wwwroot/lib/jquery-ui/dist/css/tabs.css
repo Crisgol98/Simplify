@@ -1,12 +1,12 @@
 /*!
  * jQuery UI Tabs 1.11.4
- * http://jqueryui.com
+ * http:
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * http:
  *
- * http://api.jqueryui.com/tabs/#theming
+ * http:
  */
 .ui-tabs {
 	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */

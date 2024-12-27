@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Globalization;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace Simplify.Resources.Utils
@@ -19,6 +20,33 @@ namespace Simplify.Resources.Utils
                 }
             }
             return sb.ToString();
+        }
+        public static T? ParseOrDefault<T>(string input, T? defaultValue = null) where T : struct
+        {
+            if (typeof(T).IsEnum)
+            {
+                return Enum.TryParse(input, true, out T result) ? result : defaultValue;
+            }
+
+            if (string.IsNullOrEmpty(input))
+            {
+                return defaultValue;
+            }
+
+            try
+            {
+                return (T)Convert.ChangeType(input, typeof(T));
+            }
+            catch
+            {
+                return defaultValue;
+            }
+        }
+        public static DateTime GetWeekStart()
+        {
+            DateTime today = DateTime.Now;
+            int diff = today.DayOfWeek - DayOfWeek.Monday;
+            return today.AddDays(-diff).Date;
         }
     }
 }

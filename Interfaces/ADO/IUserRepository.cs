@@ -4,6 +4,11 @@ namespace Simplify.Interfaces.ADO
 {
     public interface IUserRepository
     {
-        Task<List<UserAccount>> GetUsers();
+        Task<List<UserAccount>> Get();
+        Task<int> EditCredentials(UserAccount account);
+        Task<int> EditInformation(UserAccount account);
+        Task<UserPreferences>? GetPreferences(int? userId);
+        Task InsertPreferences(int userId, UserPreferences preferences);
+        Task UpdatePreferences(int? userId, UserPreferences preferences);
     }
 }

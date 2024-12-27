@@ -11,16 +11,108 @@
       "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:worklayer\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\worklayer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:worklayer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\task\\_timeslotcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\task\\_timeslotcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\interfaces\\worklayer\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:interfaces\\worklayer\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\scss\\pages\\_dashboard.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\scss\\pages\\_dashboard.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\weeklyscheduleslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\weeklyscheduleslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\tasks\\taskfunctions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\tasks\\taskfunctions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\ado\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:ado\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\tasks\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\tasks\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\task\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\task\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\weeklytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\weeklytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\userpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\taskstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\taskstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\scheduleslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\scheduleslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\scss\\pages\\_privacy.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\scss\\pages\\_privacy.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\account\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\account\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\account\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\account\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\scss\\base\\_variables.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\scss\\base\\_variables.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\scss\\main.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\scss\\main.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\scss\\base\\_layout.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\scss\\base\\_layout.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\scss\\components\\_header.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\scss\\components\\_header.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\scss\\base\\_global.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\scss\\base\\_global.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,143 +123,115 @@
       "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\ado\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:ado\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\interfaces\\worklayer\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:interfaces\\worklayer\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\worklayer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:worklayer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\interfaces\\ado\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:interfaces\\ado\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\ado\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:ado\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\interfaces\\ado\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:interfaces\\ado\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\resources\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:resources\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\shared\\account\\configuration\\_configurationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\shared\\account\\configuration\\_configurationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\interfaces\\worklayer\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:interfaces\\worklayer\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\account\\configuration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\account\\configuration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\account\\configuration\\credentials.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\account\\configuration\\credentials.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\account\\_settingspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\account\\_settingspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\tasks\\addtask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\tasks\\addtask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\account\\_accountdetailspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\account\\_accountdetailspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\ado\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:ado\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\interfaces\\worklayer\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:interfaces\\worklayer\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\interfaces\\ado\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:interfaces\\ado\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\tasks\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\tasks\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\account\\configuration\\preferences.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\account\\configuration\\preferences.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\account\\configuration\\personalinformation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\account\\configuration\\personalinformation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\lib\\sweetalert2\\dist\\js\\sweetalert2.all.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\lib\\sweetalert2\\dist\\js\\sweetalert2.all.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\account\\configuration\\configuration.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\account\\configuration\\configuration.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\account\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\account\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\lib\\jquery-ui\\dist\\js\\jquery-ui-1.14.1.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\lib\\jquery-ui\\dist\\js\\jquery-ui-1.14.1.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\lib\\jquery\\license.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\lib\\jquery\\license.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\lib\\fullcalendar\\dist\\js\\fullcalendar.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\lib\\fullcalendar\\dist\\js\\fullcalendar.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\lib\\moment\\dist\\moment.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\lib\\moment\\dist\\moment.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\weeklytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\weeklytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\lib\\jquery-timepicker\\dist\\js\\jquery.timepicker.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\lib\\jquery-timepicker\\dist\\js\\jquery.timepicker.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\simplify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:simplify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\account\\configuration\\preferences.js||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\account\\configuration\\preferences.js||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\resources\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:resources\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\taskstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\taskstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\models\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|solutionrelative:models\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9AC56D-D440-4986-AE1A-DA09B62744A8}|Simplify.csproj|c:\\users\\cristian trabajo\\source\\repos\\simplify\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -184,8 +248,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1383,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "jquery-ui-1.14.1.min.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery-ui\\dist\\js\\jquery-ui-1.14.1.min.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery-ui\\dist\\js\\jquery-ui-1.14.1.min.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery-ui\\dist\\js\\jquery-ui-1.14.1.min.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery-ui\\dist\\js\\jquery-ui-1.14.1.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACB1wMAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-27T08:24:28.583Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Simplify.csproj",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Simplify.csproj",
+              "RelativeDocumentMoniker": "Simplify.csproj",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Simplify.csproj",
+              "RelativeToolTip": "Simplify.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-22T02:03:27.573Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1a46fd64-28d5-434c-8eb3-17a02d419b53}"
@@ -204,501 +295,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\WorkLayer\\TaskService.cs",
-              "RelativeDocumentMoniker": "WorkLayer\\TaskService.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\WorkLayer\\TaskService.cs",
-              "RelativeToolTip": "WorkLayer\\TaskService.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T23:24:20.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITaskService.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\Worklayer\\ITaskService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\Worklayer\\ITaskService.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\Worklayer\\ITaskService.cs",
-              "RelativeToolTip": "Interfaces\\Worklayer\\ITaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T22:55:32.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\Worklayer\\IUserService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\Worklayer\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\Worklayer\\IUserService.cs",
-              "RelativeToolTip": "Interfaces\\Worklayer\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T22:53:26.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\WorkLayer\\UserService.cs",
-              "RelativeDocumentMoniker": "WorkLayer\\UserService.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\WorkLayer\\UserService.cs",
-              "RelativeToolTip": "WorkLayer\\UserService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T22:51:28.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:02:48.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T00:15:44.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ITaskRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\ADO\\ITaskRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ADO\\ITaskRepository.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\ADO\\ITaskRepository.cs",
-              "RelativeToolTip": "Interfaces\\ADO\\ITaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T23:20:53.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Controllers\\TaskController.cs",
               "RelativeToolTip": "Controllers\\TaskController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T00:32:35.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeeklyScheduleSlot.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\WeeklyScheduleSlot.cs",
-              "RelativeDocumentMoniker": "Models\\WeeklyScheduleSlot.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\WeeklyScheduleSlot.cs",
-              "RelativeToolTip": "Models\\WeeklyScheduleSlot.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T20:33:11.921Z",
+              "DocumentIndex": 2,
+              "Title": "_TimeSlotCard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Task\\_TimeSlotCard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\_TimeSlotCard.cshtml",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Task\\_TimeSlotCard.cshtml",
+              "RelativeToolTip": "Views\\Task\\_TimeSlotCard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T21:22:47.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\ADO\\UserRepository.cs",
-              "RelativeDocumentMoniker": "ADO\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\ADO\\UserRepository.cs",
-              "RelativeToolTip": "ADO\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T08:23:44.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "taskFunctions.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\taskFunctions.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Tasks\\taskFunctions.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\taskFunctions.js",
+              "RelativeToolTip": "wwwroot\\js\\Tasks\\taskFunctions.js",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAAACUBAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-27T06:32:38.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\WorkLayer\\TaskService.cs",
+              "RelativeDocumentMoniker": "WorkLayer\\TaskService.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\WorkLayer\\TaskService.cs",
+              "RelativeToolTip": "WorkLayer\\TaskService.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAKYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T23:04:57.032Z",
+              "WhenOpened": "2024-12-17T23:24:20.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Task\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Task\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Task\\Index.cshtml",
-              "RelativeToolTip": "Views\\Task\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T23:47:18.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\ADO\\TaskRepository.cs",
               "RelativeDocumentMoniker": "ADO\\TaskRepository.cs",
               "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\ADO\\TaskRepository.cs",
               "RelativeToolTip": "ADO\\TaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAiwKkAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T23:18:59.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-12T19:34:03.26Z",
+              "DocumentIndex": 3,
+              "Title": "_dashboard.scss",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\pages\\_dashboard.scss",
+              "RelativeDocumentMoniker": "wwwroot\\scss\\pages\\_dashboard.scss",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\pages\\_dashboard.scss",
+              "RelativeToolTip": "wwwroot\\scss\\pages\\_dashboard.scss",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-12-21T22:34:52.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\ADO\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ADO\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\ADO\\IUserRepository.cs",
-              "RelativeToolTip": "Interfaces\\ADO\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T23:00:06.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserTask.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\UserTask.cs",
-              "RelativeDocumentMoniker": "Models\\UserTask.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\UserTask.cs",
-              "RelativeToolTip": "Models\\UserTask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T00:24:18.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "libman.json",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\libman.json",
-              "RelativeDocumentMoniker": "libman.json",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\libman.json",
-              "RelativeToolTip": "libman.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-17T22:21:22.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Configuration.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Configuration.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Configuration.cshtml",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Configuration.cshtml",
-              "RelativeToolTip": "Views\\Account\\Configuration.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T11:42:17.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserAccount.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\UserAccount.cs",
-              "RelativeDocumentMoniker": "Models\\UserAccount.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\UserAccount.cs",
-              "RelativeToolTip": "Models\\UserAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T23:59:09.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAADwv0kAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T17:53:03.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Resources\\Utils.cs",
-              "RelativeDocumentMoniker": "Resources\\Utils.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Resources\\Utils.cs",
-              "RelativeToolTip": "Resources\\Utils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T15:59:53.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "addTask.js",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\addTask.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Tasks\\addTask.js",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\addTask.js",
-              "RelativeToolTip": "wwwroot\\js\\Tasks\\addTask.js",
-              "ViewState": "AgIAAAUAAAAAAAAAAIBJwBkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-24T18:33:24.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_ConfigurationPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\Account\\Configuration\\_ConfigurationPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Account\\Configuration\\_ConfigurationPartial.cshtml",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\Account\\Configuration\\_ConfigurationPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Account\\Configuration\\_ConfigurationPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T11:51:05.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\index.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Tasks\\index.js",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\index.js",
-              "RelativeToolTip": "wwwroot\\js\\Tasks\\index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA6wA0AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "dashboard.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\dashboard.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Tasks\\dashboard.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\dashboard.js",
+              "RelativeToolTip": "wwwroot\\js\\Tasks\\dashboard.js",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-24T18:06:52.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "credentials.js",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\credentials.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Account\\Configuration\\credentials.js",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\credentials.js",
-              "RelativeToolTip": "wwwroot\\js\\Account\\Configuration\\credentials.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-16T18:59:58.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Schedule.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Schedule.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Schedule.cshtml",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Schedule.cshtml",
-              "RelativeToolTip": "Views\\Account\\Schedule.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Task\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Task\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Task\\Dashboard.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAHQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T10:56:52.766Z",
+              "WhenOpened": "2024-12-17T23:47:18.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-14T09:53:10.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-13T17:16:20.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T18:29:03.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.css",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\css\\Index.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Index.css",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\css\\Index.css",
-              "RelativeToolTip": "wwwroot\\css\\Index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-13T17:22:17.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 9,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-05T12:13:59.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Note.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\Note.cs",
-              "RelativeDocumentMoniker": "Models\\Note.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\Note.cs",
-              "RelativeToolTip": "Models\\Note.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "UserTask.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\UserTask.cs",
+              "RelativeDocumentMoniker": "Models\\UserTask.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\UserTask.cs",
+              "RelativeToolTip": "Models\\UserTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:02:00.986Z",
+              "WhenOpened": "2024-04-09T00:24:18.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "fullcalendar.min.js",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\fullcalendar\\dist\\js\\fullcalendar.min.js",
-              "RelativeDocumentMoniker": "wwwroot\\lib\\fullcalendar\\dist\\js\\fullcalendar.min.js",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\fullcalendar\\dist\\js\\fullcalendar.min.js",
-              "RelativeToolTip": "wwwroot\\lib\\fullcalendar\\dist\\js\\fullcalendar.min.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAADFCQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-14T15:39:41.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "fullcalendar.min.css",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css",
-              "RelativeDocumentMoniker": "wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css",
-              "RelativeToolTip": "wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-14T15:37:46.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "jquery.js",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-14T15:47:19.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-09T00:00:37.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "_LoginLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\_LoginLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginLayout.cshtml",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\_LoginLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T12:35:06.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "WeeklyTask.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\WeeklyTask.cs",
-              "RelativeDocumentMoniker": "Models\\WeeklyTask.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\WeeklyTask.cs",
-              "RelativeToolTip": "Models\\WeeklyTask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "UserPreferences.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\UserPreferences.cs",
+              "RelativeDocumentMoniker": "Models\\UserPreferences.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\UserPreferences.cs",
+              "RelativeToolTip": "Models\\UserPreferences.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T04:28:15.179Z",
+              "WhenOpened": "2024-12-27T03:18:26.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAACBjwBcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-09T00:15:17.795Z",
+              "DocumentIndex": 13,
+              "Title": "UserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\UserAccount.cs",
+              "RelativeDocumentMoniker": "Models\\UserAccount.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\UserAccount.cs",
+              "RelativeToolTip": "Models\\UserAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T23:59:09.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 14,
               "Title": "TaskState.cs",
               "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\TaskState.cs",
               "RelativeDocumentMoniker": "Models\\TaskState.cs",
@@ -711,33 +477,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAOMSAAAAAAAAAAAiwPcSAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-11-27T19:48:01.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "ScheduleSlot.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\ScheduleSlot.cs",
+              "RelativeDocumentMoniker": "Models\\ScheduleSlot.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\ScheduleSlot.cs",
+              "RelativeToolTip": "Models\\ScheduleSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T00:14:30.563Z",
+              "WhenOpened": "2024-11-25T20:33:11.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 15,
               "Title": "TaskPriority.cs",
               "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\TaskPriority.cs",
               "RelativeDocumentMoniker": "Models\\TaskPriority.cs",
@@ -750,7 +503,506 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeeklyTask.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\WeeklyTask.cs",
+              "RelativeDocumentMoniker": "Models\\WeeklyTask.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Models\\WeeklyTask.cs",
+              "RelativeToolTip": "Models\\WeeklyTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T04:28:15.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_privacy.scss",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\pages\\_privacy.scss",
+              "RelativeDocumentMoniker": "wwwroot\\scss\\pages\\_privacy.scss",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\pages\\_privacy.scss",
+              "RelativeToolTip": "wwwroot\\scss\\pages\\_privacy.scss",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-12-27T06:27:34.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\css\\main.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\main.css",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\css\\main.css",
+              "RelativeToolTip": "wwwroot\\css\\main.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADowAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-21T22:29:17.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_header.scss",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\components\\_header.scss",
+              "RelativeDocumentMoniker": "wwwroot\\scss\\components\\_header.scss",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\components\\_header.scss",
+              "RelativeToolTip": "wwwroot\\scss\\components\\_header.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-12-21T22:45:49.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Account\\Privacy.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T15:56:12.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Schedule.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Schedule.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Schedule.cshtml",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Schedule.cshtml",
+              "RelativeToolTip": "Views\\Account\\Schedule.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T10:56:52.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_variables.scss",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\base\\_variables.scss",
+              "RelativeDocumentMoniker": "wwwroot\\scss\\base\\_variables.scss",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\base\\_variables.scss",
+              "RelativeToolTip": "wwwroot\\scss\\base\\_variables.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-12-21T22:33:40.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_global.scss",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\base\\_global.scss",
+              "RelativeDocumentMoniker": "wwwroot\\scss\\base\\_global.scss",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\base\\_global.scss",
+              "RelativeToolTip": "wwwroot\\scss\\base\\_global.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-12-21T22:33:31.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_layout.scss",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\base\\_layout.scss",
+              "RelativeDocumentMoniker": "wwwroot\\scss\\base\\_layout.scss",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\base\\_layout.scss",
+              "RelativeToolTip": "wwwroot\\scss\\base\\_layout.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-12-21T23:26:18.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "main.scss",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\main.scss",
+              "RelativeDocumentMoniker": "wwwroot\\scss\\main.scss",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\main.scss",
+              "RelativeToolTip": "wwwroot\\scss\\main.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-12-21T22:29:58.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T12:35:06.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAQwFgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:02:48.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Task\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Task\\Index.cshtml",
+              "RelativeToolTip": "Views\\Task\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T06:22:58.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T00:15:44.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T22:30:34.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\WorkLayer\\UserService.cs",
+              "RelativeDocumentMoniker": "WorkLayer\\UserService.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\WorkLayer\\UserService.cs",
+              "RelativeToolTip": "WorkLayer\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T22:51:28.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\ADO\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ADO\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\ADO\\ITaskRepository.cs",
+              "RelativeToolTip": "Interfaces\\ADO\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:20:53.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\Worklayer\\IUserService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Worklayer\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\Worklayer\\IUserService.cs",
+              "RelativeToolTip": "Interfaces\\Worklayer\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T22:53:26.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Configuration.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Configuration.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Configuration.cshtml",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\Configuration.cshtml",
+              "RelativeToolTip": "Views\\Account\\Configuration.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T11:42:17.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_SettingsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\_SettingsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\_SettingsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\_SettingsPartial.cshtml",
+              "RelativeToolTip": "Views\\Account\\_SettingsPartial.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowGsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T23:14:38.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_AccountDetailsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\_AccountDetailsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\_AccountDetailsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Views\\Account\\_AccountDetailsPartial.cshtml",
+              "RelativeToolTip": "Views\\Account\\_AccountDetailsPartial.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAADIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T11:51:05.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\ADO\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ADO\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\ADO\\UserRepository.cs",
+              "RelativeToolTip": "ADO\\UserRepository.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAUwH4BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:04:57.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\Worklayer\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Worklayer\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\Worklayer\\ITaskService.cs",
+              "RelativeToolTip": "Interfaces\\Worklayer\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T22:55:32.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\ADO\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ADO\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Interfaces\\ADO\\IUserRepository.cs",
+              "RelativeToolTip": "Interfaces\\ADO\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:00:06.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\index.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Tasks\\index.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\index.js",
+              "RelativeToolTip": "wwwroot\\js\\Tasks\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-27T06:38:15.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "preferences.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\preferences.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Account\\Configuration\\preferences.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\preferences.js",
+              "RelativeToolTip": "wwwroot\\js\\Account\\Configuration\\preferences.js",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAFwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-27T00:26:12.135Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 42,
+              "Title": "personalInformation.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\personalInformation.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Account\\Configuration\\personalInformation.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\personalInformation.js",
+              "RelativeToolTip": "wwwroot\\js\\Account\\Configuration\\personalInformation.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-22T01:07:37.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "sweetalert2.all.min.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\sweetalert2\\dist\\js\\sweetalert2.all.min.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\sweetalert2\\dist\\js\\sweetalert2.all.min.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\sweetalert2\\dist\\js\\sweetalert2.all.min.js",
+              "RelativeToolTip": "wwwroot\\lib\\sweetalert2\\dist\\js\\sweetalert2.all.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-27T08:37:06.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LICENSE.txt",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery\\LICENSE.txt",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\LICENSE.txt",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery\\LICENSE.txt",
+              "RelativeToolTip": "wwwroot\\lib\\jquery\\LICENSE.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-27T08:28:52.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "jquery.timepicker.min.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery-timepicker\\dist\\js\\jquery.timepicker.min.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery-timepicker\\dist\\js\\jquery.timepicker.min.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery-timepicker\\dist\\js\\jquery.timepicker.min.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery-timepicker\\dist\\js\\jquery.timepicker.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-27T08:26:40.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "configuration.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\configuration.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Account\\Configuration\\configuration.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\configuration.js",
+              "RelativeToolTip": "wwwroot\\js\\Account\\Configuration\\configuration.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-21T21:58:07.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "moment.min.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\moment\\dist\\moment.min.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\moment\\dist\\moment.min.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\moment\\dist\\moment.min.js",
+              "RelativeToolTip": "wwwroot\\lib\\moment\\dist\\moment.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-27T08:27:47.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-09T00:15:17.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-12T19:34:03.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "preferences.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\preferences.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Account\\Configuration\\preferences.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\preferences.js",
+              "RelativeToolTip": "wwwroot\\js\\Account\\Configuration\\preferences.js",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-27T00:25:23.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-14T09:53:10.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Resources\\Utils.cs",
+              "RelativeDocumentMoniker": "Resources\\Utils.cs",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\Resources\\Utils.cs",
+              "RelativeToolTip": "Resources\\Utils.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwDEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:59:53.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\libman.json",
+              "RelativeDocumentMoniker": "libman.json",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\libman.json",
+              "RelativeToolTip": "libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-17T22:21:22.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "fullcalendar.min.css",
+              "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css",
+              "ToolTip": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css",
+              "RelativeToolTip": "wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-14T15:37:46.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOMSAAAAAAAAAAAiwPcSAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-27T19:48:01.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -758,12 +1010,11 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T13:37:11.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T13:37:11.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 59,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Cristian Trabajo\\Music\\ProjectSimplify\\Simplify\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\Music\\ProjectSimplify\\Simplify\\Views\\Home\\Index.cshtml",
@@ -771,8 +1022,7 @@
               "RelativeToolTip": "..\\..\\..\\Music\\ProjectSimplify\\Simplify\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAACBzwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T15:59:58.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T15:59:58.395Z"
             }
           ]
         },
@@ -791,6 +1041,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

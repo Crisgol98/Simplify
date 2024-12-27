@@ -1,0 +1,108 @@
+﻿@model UserPreferences
+
+<div class="container mt-4">
+    <!-- Formulario de Preferencias del Usuario -->
+    <form id="preferencesForm" class="needs-validation" method="post" action="/Account/UpdatePreferences" novalidate>
+        <div id="preferences-section">
+            <h2>Preferencias de trabajo</h2>
+
+            <div class="mb-3">
+                <label for="StartTime" class="form-label">Hora de inicio</label>
+                <input type="time" class="form-control" id="StartTime" name="Preferences.StartTime"
+                       value="@(Model?.StartTime.ToString("hh\\:mm") ?? "09:00")" required>
+                <div class="invalid-feedback">
+                    La hora de inicio es obligatoria.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="EndTime" class="form-label">Hora de fin</label>
+                <input type="time" class="form-control" id="EndTime" name="Preferences.EndTime"
+                       value="@(Model?.EndTime.ToString("hh\\:mm") ?? "17:00")" required>
+                <div class="invalid-feedback">
+                    La hora de fin es obligatoria.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="BreakLength" class="form-label">Duración de los descansos</label>
+                <input type="time" class="form-control" id="BreakLength" name="Preferences.BreakLength"
+                       value="@(Model?.BreakLength.ToString("hh\\:mm") ?? "00:30")" required>
+                <div class="invalid-feedback">
+                    La duración de los descansos es obligatoria.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="BreakFrequency" class="form-label">Frecuencia de los descansos</label>
+                <input type="time" class="form-control" id="BreakFrequency" name="Preferences.BreakFrequency"
+                       value="@(Model?.BreakFrequency.ToString("hh\\:mm") ?? "02:00")" required>
+                <div class="invalid-feedback">
+                    La frecuencia de los descansos es obligatoria.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="WorkingHours" class="form-label">Horas de trabajo</label>
+                <div id="workingHoursSection">
+                    @if (Model?.WorkingHours != null && Model.WorkingHours.Any())
+                    {
+
+                        int index = 0;
+
+
+
+                        foreach (var range in Model.WorkingHours)
+                        {
+                            var options = new List<string>
+                            {
+                                $"<option value='Mañana' {(range.Period == "Mañana" ? "selected" : "")}>Mañana</option>",
+                                $"<option value='Tarde' {(range.Period == "Tarde" ? "selected" : "")}>Tarde</option>",
+                                $"<option value='Noche' {(range.Period == "Noche" ? "selected" : "")}>Noche</option>"
+                            };
+
+                            <div class="input-group mb-3 working-hour-entry">
+                                <select class="form-select period-select" name="Preferences.WorkingHours[@index].Period" required>
+                                    @Html.Raw(string.Join("", options))
+                                </select>
+                                <input type="number" class="form-control"
+                                       name="Preferences.WorkingHours[@index].Hours"
+                                       value="@range.Hours" min="0" required>
+                                <button type="button" class="btn btn-danger remove-entry">Eliminar</button>
+                            </div>
+                            index++;
+
+                        }
+                    }
+
+                    else
+                    {
+
+                        var options = new List<string>
+                        {
+                            "<option value='Mañana'>Mañana</option>",
+                            "<option value='Tarde'>Tarde</option>",
+                            "<option value='Noche'>Noche</option>"
+                        };
+
+                        <div class="input-group mb-3 working-hour-entry">
+                            <select class="form-select period-select" name="Preferences.WorkingHours[0].Period" required>
+                                <option value="" selected disabled>Selecciona un período</option>
+                                @Html.Raw(string.Join("", options))
+                            </select>
+                            <input type="number" class="form-control" name="Preferences.WorkingHours[0].Hours" min="0" required>
+                            <button type="button" class="btn btn-danger remove-entry">Eliminar</button>
+                        </div>
+                    }
+                </div>
+                <button type="button" id="addWorkingHour" class="btn btn-secondary">Añadir hora de trabajo</button>
+            </div>
+
+
+
+            <div class="mt-4">
+                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            </div>
+        </div>
+    </form>
+</div>

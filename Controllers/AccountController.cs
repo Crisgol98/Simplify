@@ -5,9 +5,11 @@ using System.Security.Claims;
 using Simplify.Models;
 using Microsoft.AspNetCore.Authorization;
 using Simplify.Interfaces.Worklayer;
+using Simplify.Resources.Utils;
 
 namespace Simplify.Controllers
 {
+    [Authorize]
     public class AccountController : Controller
     {
 
@@ -18,18 +20,21 @@ namespace Simplify.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult Login()
         {
             if (User.Identity != null && User.Identity.IsAuthenticated)
             {
-                return RedirectToAction("Index", "Task");
+                return RedirectToAction("Dashboard", "Task");
             }
             return View();
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(string name, string password)
         {
-            List<UserAccount> users = await _userService.GetUsers();
+            List<UserAccount> users = await _userService.Get();
             UserAccount? foundUser = users.FirstOrDefault(u => u.Username == name || u.Email == name);
             if (foundUser == null)
             {
@@ -57,7 +62,7 @@ namespace Simplify.Controllers
                                       new ClaimsPrincipal(claimsIdentity),
                                       authProperties);
 
-            return RedirectToAction("Index", "Task");
+            return RedirectToAction("Dashboard", "Task");
         }
         [HttpPost]
         public async Task<IActionResult> Logout()
@@ -78,37 +83,117 @@ namespace Simplify.Controllers
         {
             return View();
         }
-        [Authorize]
         [HttpGet]
-        public IActionResult Configuration()
+        public IActionResult Privacy()
         {
             return View();
         }
-        public IActionResult LoadPartial(string view)
+        [HttpGet]
+        public async Task<IActionResult> Configuration()
         {
+            string? userIdStr = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            int? userId = Utils.ParseOrDefault<int>(userIdStr, null);
+            if (userId == null)
+            {
+                return RedirectToAction("Logout");
+            }
+            UserAccount user = await _userService.GetById(userId);
+            if (user == null)
+            {
+                return RedirectToAction("Logout");
+            }
+            return View(user);
+        }
+        [HttpGet]
+        public async Task<IActionResult> LoadPartial(string view)
+        {
+            string? userIdStr = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            int? userId = Utils.ParseOrDefault<int>(userIdStr, null);
+            if (userId == null)
+            {
+                return RedirectToAction("Logout");
+            }
             switch (view)
             {
                 case "Credentials":
-                    return PartialView("_CredentialsPartial");
+                    UserAccount user = await _userService.GetById(userId);
+                    return PartialView("_AccountDetailsPartial", user);
                 case "Settings":
-                    return PartialView("_SettingsPartial");
+                    UserPreferences preferences = await _userService.GetPreferences(userId);
+                    return PartialView("_SettingsPartial", preferences);
                 default:
                     return PartialView("_NotFoundPartial");
             }
         }
-        public IActionResult EditCredentials(UserAccount user)
+        public async Task<IActionResult> UpdateCredentials(UserAccount account)
         {
-            if (ModelState.IsValid)
+            try
             {
-                try
+                string? userIdStr = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                int? userId = Utils.ParseOrDefault<int>(userIdStr, null);
+                if (userId.HasValue)
                 {
-                    return Json(new { success = true });
-                } catch (Exception e)
+                    account.Id = userId.Value;
+
+                    if (await _userService.EditCredentials(account) == -1)
+                    {
+                        return Json(new { success = false, message = "El nombre de usuario introducido ya existe." });
+                    }
+                    return Json(new { success = true, message = "Datos actualizados correctamente." });
+                }
+                else
                 {
-                    return Json(new { success = false, message = "Hubo un problema al actualizar los datos. Intenta nuevamente." });
+                    return Json(new { success = false, message = "No se pudo obtener el ID del usuario." });
                 }
             }
-            return Json(new { success = false, message = "Hay errores en los datos proporcionados. Verifica e intenta nuevamente." });
+            catch (Exception e)
+            {
+                return Json(new { success = false, message = $"Hubo un problema al actualizar los datos: {e.Message}" });
+            }
+        }
+        public async Task<IActionResult> UpdateInformation(UserAccount account)
+        {
+            try
+            {
+                string? userIdStr = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                int? userId = Utils.ParseOrDefault<int>(userIdStr, null);
+                if (userId.HasValue)
+                {
+                    account.Id = userId.Value;
+
+                    if (await _userService.EditInformation(account) == -1)
+                    {
+                        return Json(new { success = false, message = "El correo electrónico ya está siendo utilizado." });
+                    }
+                    return Json(new { success = true, message = "Datos actualizados correctamente." });
+                }
+                else
+                {
+                    return Json(new { success = false, message = "No se pudo obtener el ID del usuario." });
+                }
+            }
+            catch (Exception e)
+            {
+                return Json(new { success = false, message = $"Hubo un problema al actualizar los datos: {e.Message}" });
+            }
+        }
+        public async Task<IActionResult> UpdatePreferences(UserPreferences preferences)
+        {
+            string? userIdStr = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            int? userId = Utils.ParseOrDefault<int>(userIdStr, null);
+            if (userId == null)
+            {
+                return RedirectToAction("Login");
+            }
+            try
+            {
+                await _userService.UpdatePreferences(userId, preferences);
+                return Json(new { success = true });
+            }
+            catch (Exception e)
+            {
+                return Json(new { success = false, message = e.Message });
+            }
         }
     }
 }

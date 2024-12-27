@@ -14,7 +14,7 @@ namespace Simplify.ADO
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
-        public async Task<List<UserTask>> GetTasks()
+        public async Task<List<UserTask>> Get()
         {
             var tasks = new List<UserTask>();
 
@@ -66,57 +66,7 @@ namespace Simplify.ADO
             return tasks;
         }
 
-        public async Task<List<UserTask>> GetOrganizedTasksForWeek()
-        {
-            var tasks = new List<UserTask>();
-
-            try
-            {
-                using (SqlConnection con = new SqlConnection(_connectionString))
-                {
-                    await con.OpenAsync();
-
-                    using (SqlCommand cmd = new SqlCommand("GetOrganizedTasksForWeek", con))
-                    {
-                        cmd.CommandType = CommandType.StoredProcedure;
-
-                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
-                        {
-                            while (await reader.ReadAsync())
-                            {
-                                var task = new UserTask
-                                {
-                                    Id = reader.GetInt32(0),
-                                    Name = reader.IsDBNull(1) ? null : reader.GetString(1),
-                                    State = reader.IsDBNull(2) ? null : reader.GetString(2),
-                                    Priority = reader.IsDBNull(3) ? null : reader.GetString(3),
-                                    Description = reader.IsDBNull(4) ? null : reader.GetString(4),
-                                    CreatedAt = reader.IsDBNull(5) ? null : reader.GetDateTime(5),
-                                    DueDate = reader.IsDBNull(6) ? null : reader.GetDateTime(6),
-                                    EstimatedTime = reader.IsDBNull(7) ? null : reader.GetInt32(7),
-                                    RemainingTime = reader.IsDBNull(8) ? null : reader.GetInt32(8),
-                                    UserId = reader.GetInt32(9)
-                                };
-                                tasks.Add(task);
-                            }
-                        }
-                    }
-                }
-            }
-            catch (SqlException e)
-            {
-                Console.WriteLine($"SQL Error: {e.Message}");
-                throw;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine($"General Error: {e.Message}");
-                throw;
-            }
-
-            return tasks;
-        }
-        public async Task<int> AddTask(UserTask task)
+        public async Task<int> Add(UserTask task)
         {
             try
             {
@@ -149,7 +99,7 @@ namespace Simplify.ADO
                 throw;
             }
         }
-        public async Task<int> EditTask(UserTask newTask)
+        public async Task Edit(UserTask newTask)
         {
             try
             {
@@ -158,7 +108,7 @@ namespace Simplify.ADO
                 {
                     await con.OpenAsync();
                     string query = "UPDATE Tasks SET Name = @Name, Description = @Description, " +
-                                   "Priority = @Priority, State = @State, EstimatedTime = @EstimatedTime, " +
+                                   "Priority = @Priority, EstimatedTime = @EstimatedTime, " +
                                    "RemainingTime = @RemainingTime, DueDate = @DueDate WHERE Id = @Id";
                     using (SqlCommand cmd = con.CreateCommand())
                     {
@@ -166,7 +116,6 @@ namespace Simplify.ADO
                         cmd.Parameters.AddWithValue("@Name", newTask.Name ?? (object)DBNull.Value);
                         cmd.Parameters.AddWithValue("@Description", newTask.Description ?? (object)DBNull.Value);
                         cmd.Parameters.AddWithValue("@Priority", newTask.Priority ?? (object)DBNull.Value);
-                        cmd.Parameters.AddWithValue("@State", newTask.State ?? (object)DBNull.Value);
                         cmd.Parameters.AddWithValue("@EstimatedTime", newTask.EstimatedTime ?? (object)DBNull.Value);
                         cmd.Parameters.AddWithValue("@RemainingTime", newTask.RemainingTime ?? (object)DBNull.Value);
                         cmd.Parameters.AddWithValue("@DueDate", newTask.DueDate ?? (object)DBNull.Value);
@@ -177,13 +126,97 @@ namespace Simplify.ADO
                         con.Dispose();
                     }
                 }
-                return result;
             }
             catch
             {
-                return 0;
+                throw;
             }
         }
+        public async Task Delete(int taskId)
+        {
+            try
+            {
+                int result = 0;
+                using (SqlConnection con = new SqlConnection(_connectionString))
+                {
+                    await con.OpenAsync();
+                    string query = "UPDATE Tasks SET State = 3 WHERE Id = @Id";
+                    using (SqlCommand cmd = con.CreateCommand())
+                    {
+                        cmd.CommandText = query;
+                        cmd.Parameters.AddWithValue("@Id", taskId);
+                        await cmd.ExecuteNonQueryAsync();
+                        con.Close();
+                        con.Dispose();
+                    }
+                }
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public async Task UpdateState(int taskId, string state, int remainingTime)
+        {
+            try
+            {
+                using (var con = new SqlConnection(_connectionString))
+                {
+                    await con.OpenAsync();
+                    using (var transaction = con.BeginTransaction())
+                    {
+                        try
+                        {
+                            const string getStateIdQuery = "SELECT Id FROM TaskStates WHERE Name = @State";
+                            int stateId = 0;
+
+                            using (var cmd = new SqlCommand(getStateIdQuery, con, transaction))
+                            {
+                                cmd.Parameters.AddWithValue("@State", state);
+
+                                using (var reader = await cmd.ExecuteReaderAsync())
+                                {
+                                    if (await reader.ReadAsync())
+                                    {
+                                        stateId = reader.GetInt32(0);
+                                    }
+                                    else
+                                    {
+                                        throw new Exception($"El estado '{state}' no se encontró en la base de datos.");
+                                    }
+                                }
+                            }
+                            const string updateTaskQuery = @"
+                        UPDATE Tasks
+                        SET State = @StateId,
+                            RemainingTime = RemainingTime - @RemainingTime
+                        WHERE Id = @TaskId";
+
+                            using (var cmd = new SqlCommand(updateTaskQuery, con, transaction))
+                            {
+                                cmd.Parameters.AddWithValue("@TaskId", taskId);
+                                cmd.Parameters.AddWithValue("@StateId", stateId); // Usamos el ID del estado
+                                cmd.Parameters.AddWithValue("@RemainingTime", remainingTime);
+
+                                await cmd.ExecuteNonQueryAsync();
+                            }
+                            transaction.Commit();
+                        }
+                        catch (Exception ex)
+                        {
+                            transaction.Rollback();
+                            throw;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+
 
     }
 }

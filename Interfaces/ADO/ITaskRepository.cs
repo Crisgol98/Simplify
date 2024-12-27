@@ -4,8 +4,10 @@ namespace Simplify.Interfaces.ADO
 {
     public interface ITaskRepository
     {
-        Task<List<UserTask>> GetTasks();
-        Task<int> AddTask(UserTask task);
-        Task<int> EditTask(UserTask task);
+        Task<List<UserTask>> Get();
+        Task<int> Add(UserTask task);
+        Task Edit(UserTask task);
+        Task Delete(int taskId);
+        Task UpdateState(int taskId, string state, int remainingTime);
     }
 }

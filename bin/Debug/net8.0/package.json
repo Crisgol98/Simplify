@@ -1,0 +1,24 @@
+{
+  "name": "simplify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx sass --quiet wwwroot/scss/main.scss:wwwroot/css/main.css",
+    "watch-css": "npx sass --quiet --watch wwwroot/scss:wwwroot/css",
+    "copy-bootstrap": "copyfiles -u 3 \"node_modules/bootstrap/dist/js/*\" \"wwwroot/lib/bootstrap/js/\" && copyfiles -u 4 \"node_modules/@popperjs/core/dist/umd/*\" \"wwwroot/lib/popperjs/\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "copyfiles": "^2.4.1",
+    "sass": "^1.83.0"
+  },
+  "dependencies": {
+    "fontawesome": "^5.6.3",
+    "sweetalert2": "^11.15.3"
+  }
+}

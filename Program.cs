@@ -4,10 +4,11 @@ using Simplify.Interfaces.ADO;
 using Simplify.Interfaces.Worklayer;
 using Simplify.ADO;
 using Simplify.WorkLayer;
+using CurrieTechnologies.Razor.SweetAlert2;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 builder.Services.AddControllersWithViews(options =>
 {
     options.Filters.Add(
@@ -18,31 +19,31 @@ builder.Services.AddControllersWithViews(options =>
         }
     );
 });
-// Add cookie authentication
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
         options.LoginPath = "/Account/Login";
         options.LogoutPath = "/Account/Logout";
         options.AccessDeniedPath = "/Account/AccessDenied";
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+        options.ExpireTimeSpan = TimeSpan.FromHours(24);
         options.SlidingExpiration = true;
     });
 
 builder.Services.AddAuthorization();
-// Initialize session service
+
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(60);
 });
-// Cache
+
 builder.Services.AddMemoryCache();
-// HttpContext
+
 builder.Services.AddHttpContextAccessor();
 // ADO
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
-// Worklayer
+// WorkLayer
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ITaskService, TaskService>();
 

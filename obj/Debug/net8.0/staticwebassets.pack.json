@@ -1,192 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
-    },
-    {
       "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Simplify.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Simplify.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Simplify.44hszyy95e.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\css\\Index.css",
-      "PackagePath": "staticwebassets\\css\\Index.css"
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\css\\main.css.map"
     },
     {
       "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\favicon.ico",
@@ -205,200 +29,44 @@
       "PackagePath": "staticwebassets\\images\\spanish-icon.png"
     },
     {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\credentials.js",
-      "PackagePath": "staticwebassets\\js\\Account\\Configuration\\credentials.js"
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\configuration.js",
+      "PackagePath": "staticwebassets\\js\\Account\\Configuration\\configuration.js"
     },
     {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\addTask.js",
-      "PackagePath": "staticwebassets\\js\\Tasks\\addTask.js"
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\personalInformation.js",
+      "PackagePath": "staticwebassets\\js\\Account\\Configuration\\personalInformation.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Account\\Configuration\\preferences.js",
+      "PackagePath": "staticwebassets\\js\\Account\\Configuration\\preferences.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\Tasks\\dashboard.js"
     },
     {
       "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\index.js",
       "PackagePath": "staticwebassets\\js\\Tasks\\index.js"
     },
     {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\Tasks\\taskFunctions.js",
+      "PackagePath": "staticwebassets\\js\\Tasks\\taskFunctions.js"
+    },
+    {
       "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\font-awesome\\dist\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\dist\\css\\all.min.css"
     },
     {
       "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\fullcalendar\\dist\\css\\fullcalendar.min.css",
@@ -459,6 +127,14 @@
     {
       "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\fullcalendar\\dist\\js\\fullcalendar.min.js",
       "PackagePath": "staticwebassets\\lib\\fullcalendar\\dist\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery-timepicker\\dist\\css\\jquery.timepicker.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-timepicker\\dist\\css\\jquery.timepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery-timepicker\\dist\\js\\jquery.timepicker.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-timepicker\\dist\\js\\jquery.timepicker.min.js"
     },
     {
       "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery-ui\\dist\\css\\accordion.css",
@@ -629,6 +305,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery-ui\\dist\\js\\jquery-ui-1.14.1.min.js"
     },
     {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery-unobtrusive-ajax\\dist\\js\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-unobtrusive-ajax\\dist\\js\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
       "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -665,20 +345,136 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery\\dist\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery-3.7.1.min.js"
     },
     {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\jquery\\dist\\jquery-3.7.1.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery-3.7.1.min.map"
     },
     {
       "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\moment\\dist\\moment.min.js",
       "PackagePath": "staticwebassets\\lib\\moment\\dist\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\enums.js",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\enums.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\enums.js.map",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\enums.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\enums.min.js",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\enums.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\enums.min.js.flow",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\enums.min.js.flow"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\enums.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\enums.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper-base.js",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper-base.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper-base.js.map",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper-base.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper-base.min.js",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper-base.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper-base.min.js.flow",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper-base.min.js.flow"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper-base.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper-base.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper-lite.js",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper-lite.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper-lite.js.map",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper-lite.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper-lite.min.js",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper-lite.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper-lite.min.js.flow",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper-lite.min.js.flow"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper-lite.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper-lite.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper.js",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper.js.map",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper.min.js",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper.min.js.flow",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper.min.js.flow"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\popperjs\\umd\\popper.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\popperjs\\umd\\popper.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\sweetalert2\\dist\\css\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\css\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\lib\\sweetalert2\\dist\\js\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\dist\\js\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\base\\_global.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_global.scss"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\base\\_layout.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_layout.scss"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\base\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\components\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\scss\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\pages\\_dashboard.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\Cristian Trabajo\\source\\repos\\Simplify\\wwwroot\\scss\\pages\\_privacy.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_privacy.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Simplify.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Simplify.Microsoft.AspNetCore.StaticWebAssets.props",

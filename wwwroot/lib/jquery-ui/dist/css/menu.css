@@ -1,12 +1,12 @@
 /*!
  * jQuery UI Menu 1.11.4
- * http://jqueryui.com
+ * http:
  *
  * Copyright jQuery Foundation and other contributors
  * Released under the MIT license.
- * http://jquery.org/license
+ * http:
  *
- * http://api.jqueryui.com/menu/#theming
+ * http:
  */
 .ui-menu {
 	list-style: none;
@@ -25,7 +25,7 @@
 	cursor: pointer;
 	min-height: 0; /* support: IE7 */
 	/* support: IE10, see #8844 */
-	list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+	list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP
 }
 .ui-menu .ui-menu-divider {
 	margin: 5px 0;

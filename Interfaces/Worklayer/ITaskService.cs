@@ -4,11 +4,14 @@ namespace Simplify.Interfaces.Worklayer
 {
     public interface ITaskService
     {
-        Task<List<UserTask>> GetTasks();
-        Task<List<UserTask>> GetTasksByUserId(int userId);
-        Task<UserTask> GetTaskById(int taskId);
-        Task<List<WeeklyScheduleSlot>> GenerateWeeklySchedule();
-        Task<bool> AddTask(UserTask task);
-        Task<bool> EditTask(UserTask task);
+        Task<List<UserTask>> Get();
+        Task<bool> Add(UserTask task);
+        Task Edit(UserTask task);
+        Task Delete(int taskId);
+        Task UpdateState(int taskId, string state, int remainingTime);
+        Task<List<UserTask>> GetByUserId(int? userId);
+        Task<List<UserTask>> GetCancelledByUserId(int? userId);
+        Task<UserTask> GetByTaskId(int taskId);
+        Task<List<ScheduleSlot>> GenerateDailySchedule(int userId, DateTime date);
     }
 }

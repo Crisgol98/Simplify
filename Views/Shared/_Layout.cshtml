@@ -4,17 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Simplify</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/main.css" />
     <link rel="stylesheet" href="~/lib/jquery-ui/dist/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="~/lib/sweetalert2/dist/css/sweetalert2.min.css">
     <link rel="stylesheet" href="~/lib/fullcalendar/dist/css/fullcalendar.min.css"/>
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Simplify</a>
+                <a class="navbar-brand">Simplify</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" 
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,16 +23,12 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Task" asp-action="Dashboard">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Task" asp-action="Index">Tasks</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Task" asp-action="Index">Tareas</a>
                         </li>
                     </ul>
-                    <form class="form d-flex">
-                        <input class="form-control mr-sm-2 me-1" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             @if (User.Identity != null && User.Identity.IsAuthenticated)
@@ -60,14 +57,36 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - Simplify - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 - Simplify <a asp-area="" asp-controller="Account" asp-action="Privacy" class="ps-2">Política de Privacidad y Cookies</a> 
+            <ul class="list-inline mb-0 pt-2 ps-2">
+                <li class="list-inline-item">
+                    <a href="mailto:soporte@simplify.com" class="text-decoration-none">
+                        <i class="fas fa-envelope"></i> soporte@simplify.com
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="tel:+123456789" class="text-decoration-none">
+                        <i class="fas fa-phone"></i> +1 234 567 89
+                    </a>
+                </li>
+            </ul>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <!-- Jquery & jquery addons -->
+    <script src="~/lib/jquery/dist/jquery-3.7.1.min.js"></script>
     <script src="~/lib/jquery-ui/dist/js/jquery-ui-1.14.1.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-unobtrusive-ajax/dist/js/jquery.unobtrusive-ajax.min.js"></script>
+    <!-- Moment.js --> 
     <script src="~/lib/moment/dist/moment.min.js"></script>
+    <!-- FullCalendar -->
     <script src="~/lib/fullcalendar/dist/js/fullcalendar.min.js"></script>
+    <!-- Bootstrap & popperjs -->
+    <script src="~/lib/popperjs/umd/popper.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="~/lib/sweetalert2/dist/js/sweetalert2.all.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
