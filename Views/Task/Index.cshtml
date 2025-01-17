@@ -1,0 +1,64 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-12 mb-4">
+            <div class="row justify-content-between">
+                <!-- Filtro de categorías (Se muestra en la izquierda en pantallas grandes) -->
+                <div class="col-12 col-sm-4 mb-2">
+                    <div class="dropdown w-100">
+                        <button class="btn btn-outline-primary dropdown-toggle w-100" type="button" id="stateDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Todas las tareas
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="stateDropdown">
+                            <li><a class="dropdown-item" href="#" id="filterAll">Todas las tareas</a></li>
+                            <li><a class="dropdown-item" href="#" id="filterInProcess">En proceso</a></li>
+                            <li><a class="dropdown-item" href="#" id="filterCancelled">Cancelado</a></li>
+                            <li><a class="dropdown-item" href="#" id="filterCompleted">Finalizado</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Buscador (Se muestra en el medio) -->
+                <div class="col-12 col-sm-4 mb-2">
+                    <div class="input-group w-100">
+                        <input type="text" id="searchInput" class="form-control" placeholder="Buscar tareas..." aria-label="Buscar tareas">
+                        <button class="btn btn-outline-secondary" id="searchButton">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Filtro de prioridad (Se muestra a la derecha en pantallas grandes) -->
+                <div class="col-12 col-sm-4 mb-2">
+                    <div class="dropdown w-100">
+                        <button class="btn btn-outline-success dropdown-toggle w-100" type="button" id="priorityDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Seleccionar prioridad
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="priorityDropdown">
+                            <li><a class="dropdown-item" href="#" id="filterPriorityDefault">Seleccionar prioridad</a></li> <!-- Opción por defecto -->
+                            <li><a class="dropdown-item" href="#" id="filterHigh">Alta</a></li>
+                            <li><a class="dropdown-item" href="#" id="filterMedium">Media</a></li>
+                            <li><a class="dropdown-item" href="#" id="filterLow">Baja</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="taskContainer">
+            <div id="task-list-container" class="task-list row">
+                <!-- Las tareas se cargarán aquí con AJAX -->
+            </div>
+            <div class="no-tasks-message alert alert-warning d-none" role="alert">
+                No hay tareas en esta categoría.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/Tasks/taskFunctions.js?v=@DateTime.Now.Ticks"></script>
+    <script src="~/js/Tasks/index.js?v=@DateTime.Now.Ticks"></script>
+}

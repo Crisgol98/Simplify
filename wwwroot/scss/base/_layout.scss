@@ -1,0 +1,47 @@
+﻿@use "variables" as *;
+
+html, body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+
+    header {
+        flex-shrink: 0;
+    }
+
+    #main-container {
+        flex: 1 0 auto;
+        padding: 20px 15px;
+        overflow-y: auto;
+    }
+
+    footer {
+        flex-shrink: 0;
+        background-color: transparent;
+
+        .container {
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0px;
+        }
+
+        a {
+            font-size: 0.9rem;
+        }
+
+        .list-inline-item {
+            font-size: 0.85rem;
+        }
+    }
+}
+

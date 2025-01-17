@@ -1,0 +1,11 @@
+#workingHoursSection .input-group {
+  margin-bottom: 1rem;
+}
+#workingHoursSection .input-group .form-select {
+  max-width: 150px;
+}
+#workingHoursSection .btn-danger {
+  margin-left: 0.5rem;
+}
+
+/*# sourceMappingURL=configuration.css.map */

@@ -1,0 +1,66 @@
+﻿@model UserAccount
+
+<div class="container mt-4">
+    <!-- Formulario de Credenciales de acceso -->
+    <form id="credentialsForm" class="needs-validation" method="post" novalidate>
+        <div id="credentials-section">
+            <h2>Credenciales de acceso</h2>
+            <div class="mb-3">
+                <label for="Username" class="form-label">Nombre de usuario</label>
+                <input type="text" class="form-control" id="Username" name="Username" value="@Model?.Username" required>
+                <div class="invalid-feedback" id="usernameRequiredError">
+                    El nombre de usuario es obligatorio.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="Password" class="form-label">Nueva contraseña</label>
+                <input type="password" class="form-control" id="Password" name="Password" minlength="6" required>
+                <div class="invalid-feedback">
+                    La contraseña debe tener al menos 6 caracteres.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="ConfirmPassword" class="form-label">Confirmar contraseña</label>
+                <input type="password" class="form-control" id="ConfirmPassword" name="ConfirmPassword" required>
+                <div class="invalid-feedback">
+                    Es obligatorio confirmar la contraseña.
+                </div>
+                <div class="invalid-feedback" id="passwordMatchError" style="display: none;">
+                    Las contraseñas no coinciden.
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            </div>
+        </div>
+    </form>
+
+    <!-- Formulario de Datos personales -->
+    <form id="personalDataForm" class="needs-validation mt-4" method="post" action="/Account/UpdatePersonalData" novalidate>
+        <div id="personal-data-section">
+            <h2>Datos personales</h2>
+            <div class="mb-3">
+                <label for="Name" class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" id="Name" name="Name" value="@Model?.Name" required>
+                <div class="invalid-feedback">
+                    El nombre completo es obligatorio.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="Email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="Email" name="Email" value="@Model?.Email" required>
+                <div class="invalid-feedback">
+                    El correo electrónico es obligatorio.
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            </div>
+        </div>
+    </form>
+</div>

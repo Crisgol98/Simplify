@@ -1,0 +1,50 @@
+﻿@import '../base/variables';
+
+.card {
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+
+    .card-header {
+        background-color: $primary-color;
+        border-top-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+
+        h2 {
+            color: white;
+            font-size: 1.5rem;
+        }
+    }
+
+    .card-body {
+        background-color: $gray-light;
+
+        .form-control {
+            border: 1px solid $gray-medium;
+            border-radius: $border-radius;
+            padding: 0.75rem;
+
+            &:focus {
+                border-color: $primary-color;
+                box-shadow: 0 0 0 0.2rem rgba($primary-color, 0.25);
+            }
+        }
+
+        .btn-primary {
+            background-color: $primary-color;
+            border-color: $primary-color;
+            border-radius: $border-radius;
+            padding: 0.75rem;
+            font-weight: 600;
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+        }
+
+        .text-danger {
+            color: $danger-color;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+    }
+}

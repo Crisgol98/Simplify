@@ -1,0 +1,10 @@
+﻿@use 'base/variables' as *;
+@use 'base/global' as *;
+@use 'base/layout' as *;
+@use 'components/header' as *;
+@use 'pages/dashboard' as *;
+@use 'pages/privacy' as *;
+@use 'pages/introduction' as *;
+@use 'pages/configuration' as *;
+
+@use '../../node_modules/bootstrap/scss/bootstrap' as *;

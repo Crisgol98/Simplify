@@ -1,0 +1,130 @@
+﻿@import "../base/variables";
+
+.intro-container {
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background-color: $gray-light;
+    padding: 20px;
+    // Header section
+    .header-section {
+        text-align: center;
+        padding: 20px 0;
+
+        h1 {
+            color: $primary-color;
+            margin-bottom: 10px;
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+        }
+
+        p {
+            color: $gray-dark;
+            margin-bottom: 20px;
+            font-size: clamp(0.9rem, 2vw, 1.1rem);
+        }
+    }
+    // Steps container
+    .steps-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .step {
+        position: absolute;
+        width: 100%;
+        max-width: min(90%, 500px);
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+        transition: all $transition-speed ease-in-out;
+        background-color: white;
+        padding: clamp(20px, 4vw, 40px);
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+
+        &.active {
+            opacity: 1;
+            display: block;
+            visibility: visible;
+        }
+
+        h2 {
+            color: $gray-dark;
+            margin-bottom: 20px;
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            text-align: center;
+        }
+
+        .input-time {
+            width: 100%;
+            max-width: 300px;
+            padding: 12px;
+            margin: 20px auto;
+            display: block;
+            border: 1px solid $gray-medium;
+            border-radius: $border-radius;
+            box-shadow: $box-shadow;
+            font-size: 1rem;
+
+            &:focus {
+                border-color: $primary-color;
+                outline: none;
+            }
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn-next,
+        .btn-prev,
+        .btn-submit {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 24px;
+            color: #fff;
+            font-size: clamp(0.9rem, 2vw, 1rem);
+            border: none;
+            border-radius: $border-radius;
+            background-color: $primary-color;
+            cursor: pointer;
+            transition: background-color $transition-speed;
+            min-width: 120px;
+
+            i {
+                margin-left: 8px;
+            }
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+
+            @media (max-width: 480px) {
+                width: 100%;
+            }
+        }
+
+        .btn-prev {
+            background-color: $gray-dark;
+
+            i {
+                margin-left: 0;
+                margin-right: 8px;
+            }
+
+            &:hover {
+                background-color: lighten($gray-dark, 10%);
+            }
+        }
+    }
+}

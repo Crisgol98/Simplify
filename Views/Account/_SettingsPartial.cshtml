@@ -1,0 +1,48 @@
+﻿@model UserPreferences
+
+<div class="container mt-4">
+    <form id="preferencesForm" class="needs-validation" method="post" novalidate>
+        <h2>Preferencias de trabajo</h2>
+        <div class="mb-3">
+            <label for="StartTime" class="form-label">Hora de inicio</label>
+            <input type="time" class="form-control" id="StartTime" name="Preferences.StartTime"
+                   value="@(Model?.StartTime.ToString("hh\\:mm") ?? "09:00")" required>
+        </div>
+        <div class="mb-3">
+            <label for="EndTime" class="form-label">Hora de fin</label>
+            <input type="time" class="form-control" id="EndTime" name="Preferences.EndTime"
+                   value="@(Model?.EndTime.ToString("hh\\:mm") ?? "17:00")" required>
+        </div>
+        <div class="mb-3">
+            <label for="BreakLength" class="form-label">Duración de los descansos</label>
+            <input type="time" class="form-control" id="BreakLength" name="Preferences.BreakLength"
+                   value="@(Model?.BreakLength.ToString("hh\\:mm") ?? "00:30")" required>
+        </div>
+        <div class="mb-3">
+            <label for="BreakFrequency" class="form-label">Frecuencia de los descansos</label>
+            <input type="time" class="form-control" id="BreakFrequency" name="Preferences.BreakFrequency"
+                   value="@(Model?.BreakFrequency.ToString("hh\\:mm") ?? "02:00")" required>
+        </div>
+        <div class="mb-3">
+            <label for="WorkingHours" class="form-label">Horas de trabajo</label>
+            <div id="workingHoursSection">
+                @foreach (var range in Model?.WorkingHours)
+                {
+                    <div class="input-group mb-3 working-hour-entry">
+                        <select class="form-select period-select" name="@range.Period" required>
+                            <option value="Mañana" selected="@(range.Period == "Mañana")">Mañana</option>
+                            <option value="Tarde" selected="@(range.Period == "Tarde")">Tarde</option>
+                            <option value="Noche" selected="@(range.Period == "Noche")">Noche</option>
+
+                        </select>
+                        <input type="number" class="form-control" name="@range.Hours"
+                               value="@range.Hours" min="1" required>
+                        <button type="button" class="btn btn-danger remove-entry">Eliminar</button>
+                    </div>
+                }
+            </div>
+            <button type="button" id="addWorkingHour" class="btn btn-secondary">Añadir período de trabajo</button>
+        </div>
+        <button type="submit" class="btn btn-primary mt-4">Guardar cambios</button>
+    </form>
+</div>

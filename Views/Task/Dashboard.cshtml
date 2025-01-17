@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    var schedule = ViewBag.Schedule as List<ScheduleSlot>;
+    var today = DateTime.Today;
+}
+
+<div class="dashboard">
+    <div class="dashboard_header">
+        <h1 class="dashboard_title">Mi Panel de Tareas</h1>
+        <div class="dashboard_actions">
+            <button onclick="addTask()" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Nueva Tarea
+            </button>
+        </div>
+    </div>
+
+    <div class="dashboard_grid">
+        <!-- Panel de Estadísticas -->
+        <div class="dashboard_stats">
+            <div class="stats-card">
+                <div class="stats-card_header">
+                    <h3>Resumen</h3>
+                </div>
+                <div class="stats-card_content">
+                    <div class="stat-item">
+                        <span class="stat-item_label">Tareas Totales</span>
+                        <span class="stat-item_value" id="totalTasks">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-item_label">Completadas</span>
+                        <span class="stat-item_value stat-item_value--success" id="completedTasks">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-item_label">Pendientes</span>
+                        <span class="stat-item_value stat-item_value--warning" id="pendingTasks">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-item_label">Atrasadas</span>
+                        <span class="stat-item_value stat-item_value--danger" id="overdueTasks">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Calendario de tareas -->
+        <div class="dashboard_today">
+            <div class="task-card">
+                <div class="task-card_content" id="calendar">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Horario Diario -->
+    <div class="dashboard">
+        <div class="dashboard_schedule">
+            <div class="schedule-card">
+                <div class="schedule-card_header">
+                    <h3>Horario del Día</h3>
+                </div>
+                <div class="schedule-card_content">
+                    @if (schedule != null && schedule.Any())
+                    {
+                        <div class="time-blocks">
+                            <!-- Dividir las tareas según los periodos de la jornada -->
+                            @foreach (var period in new[] { "Mañana", "Tarde", "Noche" })
+                            {
+
+                                var slotsInPeriod = schedule.Where(s => s.Period == period && (s.Tasks.Any() || s.IsBreak.GetValueOrDefault())).ToList();
+                                if (slotsInPeriod.Any())
+                                {
+                                    <div class="time-section">
+                                        <div class="time-section_header">
+                                            @if (period == "Mañana")
+                                            {
+                                                <i class="fas fa-sun"></i>
+                                            }
+                                            else if (period == "Tarde")
+                                            {
+                                                <i class="fas fa-cloud-sun"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="fas fa-moon"></i>
+                                            }
+                                            <h4>@period</h4>
+                                        </div>
+
+                                        <div class="time-slots">
+                                            @foreach (var slot in slotsInPeriod)
+                                            {
+                                                @await Html.PartialAsync("_TimeSlotCard", (slot.StartTime, slot))
+                                            }
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="empty-schedule">
+                            <p>No hay tareas sin completar</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Tasks/taskFunctions.js?v=@DateTime.Now.Ticks"></script>
+    <script src="~/js/Tasks/dashboard.js?v=@DateTime.Now.Ticks"></script>
+}

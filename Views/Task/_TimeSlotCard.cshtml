@@ -1,0 +1,38 @@
+﻿@using Simplify.Resources.Utils
+@model (TimeSpan slot, ScheduleSlot tasksForSlot)
+
+<div onclick="@(Model.tasksForSlot.Tasks.Any() && Model.tasksForSlot.Tasks.FirstOrDefault() != null ? $"showTaskDetails({Model.tasksForSlot.Tasks.FirstOrDefault()?.Id})" : "")"
+     class="time-slot-card
+    @(Model.tasksForSlot?.Tasks.Any() == true ? "has-task" : "")
+    @(Model.tasksForSlot?.IsBreak == true ? "is-break" : "")
+    @(Model.tasksForSlot?.Tasks.FirstOrDefault()?.State == "Finalizado" ? "completed" : "")">
+
+    <div class="time-slot-card_time">
+        @Model.slot.ToString(@"hh\:mm")
+    </div>
+    <div class="time-slot-card_content">
+        @if (Model.tasksForSlot.IsBreak.GetValueOrDefault())
+        {
+            <div class="break-slot">
+                <i class="fas fa-coffee"></i>
+                <span>Descanso</span>
+            </div>
+        }
+        else if (Model.tasksForSlot?.Tasks.Any() == true)
+        {
+            foreach (var task in Model.tasksForSlot.Tasks)
+            {
+                <div class="task-card" data-task-id="@task.Id">
+                    <div class="task-card_header">
+                        <span class="task-name">@task.Name</span>
+                        <span class="task-duration">@task.RemainingTime min</span>
+                    </div>
+                    @if (!string.IsNullOrEmpty(task.Description))
+                    {
+                        <p class="task-description">@Utils.TextAbbreviation(task.Description, 25)</p>
+                    }
+                </div>
+            }
+        }
+    </div>
+</div>

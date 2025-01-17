@@ -1,0 +1,11 @@
+# Ignorar la carpeta de publicación
+bin/
+obj/
+
+# Ignorar configuraciones sensibles
+appsettings.json
+appsettings.*.json
+
+# Ignorar archivos de Visual Studio 2022
+.vs
+

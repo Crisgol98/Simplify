@@ -1,0 +1,61 @@
+﻿@use "../base/variables" as *;
+
+header {
+    .navbar {
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-collapse {
+            .navbar-nav {
+                display: flex;
+                flex-wrap: nowrap;
+            }
+
+            .form {
+                display: flex;
+                margin-right: 20px;
+            }
+
+            .nav-item {
+                display: flex;
+                align-items: center;
+
+                .profile-picture {
+                    max-width: 40px;
+                    height: auto;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 576px) {
+        .navbar {
+            .navbar-brand {
+                font-size: 1.25rem;
+            }
+
+            .navbar-collapse {
+                .navbar-nav {
+                    flex-direction: column;
+                }
+
+                .form {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+

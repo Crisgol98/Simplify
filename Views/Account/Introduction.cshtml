@@ -1,0 +1,83 @@
+﻿<div class="intro-container">
+    <div class="header-section">
+        <h1>Bienvenido a Simplify</h1>
+        <p>Por favor, configura tus preferencias para empezar.</p>
+    </div>
+    <div class="steps-container">
+        <div class="step active" id="step-1">
+            <h2>¿A qué hora empiezas a trabajar?</h2>
+            <input type="time" id="start-time" class="input-time" />
+            <div class="buttons-container">
+                <button class="btn-next" data-next="#step-2">
+                    Siguiente <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="step" id="step-2">
+            <h2>¿A qué hora terminas de trabajar?</h2>
+            <input type="time" id="end-time" class="input-time" />
+            <div class="buttons-container">
+                <button class="btn-prev" data-prev="#step-1">
+                    <i class="fas fa-arrow-left"></i> Anterior
+                </button>
+                <button class="btn-next" data-next="#step-3">
+                    Siguiente <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="step" id="step-3">
+            <h2>¿Cuánto duran tus descansos?</h2>
+            <input type="time" id="break-length" class="input-time" />
+            <div class="buttons-container">
+                <button class="btn-prev" data-prev="#step-2">
+                    <i class="fas fa-arrow-left"></i> Anterior
+                </button>
+                <button class="btn-next" data-next="#step-4">
+                    Siguiente <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="step" id="step-4">
+            <h2>¿Con qué frecuencia necesitas un descanso?</h2>
+            <input type="time" id="break-frequency" class="input-time" required />
+            <div class="buttons-container">
+                <button class="btn-prev" data-prev="#step-3">
+                    <i class="fas fa-arrow-left"></i> Anterior
+                </button>
+                <button class="btn-next" data-next="#step-5">
+                    Siguiente <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="step" id="step-5">
+            <h2>Configura tus períodos de trabajo</h2>
+            <div id="workingHoursSection">
+                <div class="input-group mb-3 working-hour-entry">
+                    <select class="form-select period-select" name="periodo" required>
+                        <option value="" disabled selected>Selecciona un período</option>
+                        <option value="Mañana">Mañana</option>
+                        <option value="Tarde">Tarde</option>
+                        <option value="Noche">Noche</option>
+                    </select>
+                    <input type="number" class="form-control" name="horas" min="1" value="1" required />
+                    <button type="button" class="btn btn-danger remove-entry">Eliminar</button>
+                </div>
+            </div>
+            <button type="button" id="addWorkingHour" class="btn btn-secondary mb-3">Añadir período</button>
+            <div class="buttons-container">
+                <button class="btn-prev" data-prev="#step-4">
+                    <i class="fas fa-arrow-left"></i> Anterior
+                </button>
+                <button class="btn-submit">
+                    Finalizar <i class="fas fa-check"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/Account/Configuration//configurationFunctions.js?v=@DateTime.Now.Ticks"></script>
+    <script src="~/js/Account/Register/introduction.js?v=@DateTime.Now.Ticks"></script>
+}

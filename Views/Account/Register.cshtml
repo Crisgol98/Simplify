@@ -1,0 +1,50 @@
+﻿@model UserAccount
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<div class="d-grid" style="min-height: 80vh; display: grid; align-items: center;">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h2 class="card-title mb-0">Crear cuenta</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Register" method="post" id="register-form" novalidate>
+                        <div class="form-group mb-3">
+                            <label asp-for="Name" class="form-label">Nombre</label>
+                            <input asp-for="Name" class="form-control" id="Name" />
+                            <div class="invalid-feedback">El nombre no es válido.</div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Username" class="form-label">Nombre de usuario</label>
+                            <input asp-for="Username" class="form-control" id="Username" />
+                            <div class="invalid-feedback">El nombre de usuario no es válido.</div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label"></label>
+                            <input asp-for="Email" class="form-control" id="Email" />
+                            <div class="invalid-feedback">El correo electrónico no es válido.</div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Password" class="form-label">Contraseña</label>
+                            <input asp-for="Password" class="form-control" id="Password" type="password" />
+                            <div class="invalid-feedback">La contraseña no es válida.</div>
+                        </div>
+
+                        <div class="d-grid">
+                            <button id="btn-register" class="btn btn-primary">Registrarse</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Account/Register/register.js?v=@DateTime.Now.Ticks"></script>
+}
